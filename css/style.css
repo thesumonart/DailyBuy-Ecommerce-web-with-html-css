@@ -711,7 +711,7 @@ html {
 /* deals css start */
 
 #deals {
-  background-image: url(./asse/images/Deals_background.png);
+  background-image: url(../assets/images/Deals_background.png);
   margin-top: 5.6rem;
   .container {
     .deals_wrapper {
