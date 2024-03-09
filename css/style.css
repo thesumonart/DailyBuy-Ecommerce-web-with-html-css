@@ -793,5 +793,247 @@ html {
       }
     }
   }
-  /* deals css end */
 }
+/* deals css end */
+
+/* service & Bottom category css start */
+#bottom_service_category {
+  margin-top: 6.4rem;
+
+  .container {
+    .bottom_category_wrapper {
+      margin-bottom: 7.4rem;
+      display: flex;
+      justify-content: space-between;
+      .category_icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2.15rem;
+        div {
+          background-color: rgba(224, 246, 242, 0.5);
+          width: 18rem;
+          height: 18rem;
+          border-radius: 50%;
+          margin-bottom: 2.4rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          figure {
+            height: 9.8rem;
+            width: 9.8rem;
+            img {
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+        h4 {
+          font-size: 2.4rem;
+          font-weight: 500;
+          color: var(--gray-800);
+        }
+        span {
+          font-size: 1.8rem;
+          line-height: 2.4rem;
+          color: var(--gray-500);
+        }
+      }
+    }
+    .bottom_service_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 4rem;
+      div {
+        display: flex;
+        align-items: center;
+        figure {
+          width: 4rem;
+          height: 3.7rem;
+          margin-right: 1.2rem;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+          }
+        }
+        figcaption {
+          font-size: 1.4rem;
+          font-weight: 600;
+          line-height: 2.2rem;
+          color: var(--gray-800);
+        }
+      }
+      .line {
+        height: 2.8rem;
+        width: 0.1rem;
+        background-color: #e4e4e4;
+        display: inline-block;
+        margin: 0 4.8rem;
+      }
+    }
+  }
+}
+/* service & Bottom category css end */
+
+/* footer css start */
+
+#footer {
+  margin-top: 4.4rem;
+  .container {
+    footer {
+      .info_links_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 9rem;
+        .company_social_info {
+          .logo {
+            width: 19.3rem;
+            height: 6rem;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: fill;
+            }
+          }
+          p {
+            font-size: 1.8rem;
+            line-height: 3rem;
+            color: var(--gray-700);
+            width: 35.4rem;
+            margin-top: 4rem;
+          }
+          .social_links {
+            margin-top: 3.2rem;
+            display: flex;
+            gap: 1.6rem;
+            a {
+              display: inline-block;
+              text-decoration: none;
+              figure {
+                width: 4.2rem;
+                height: 4.2rem;
+                background-color: rgba(224, 246, 242, 0.5);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                  height: 1.5rem;
+                  width: auto;
+                }
+              }
+            }
+          }
+        }
+        ul {
+          li {
+            list-style: none;
+            color: var(--gray-700);
+            font-size: 1.8rem;
+            line-height: 3rem;
+            margin-bottom: 2.4rem;
+            &:first-child {
+              text-transform: uppercase;
+              color: var(--gray-800);
+              font-size: 2rem;
+              font-weight: 700;
+              line-height: 3rem;
+              margin-bottom: 2.5rem;
+            }
+          }
+        }
+
+        .contact {
+          h4 {
+            text-transform: uppercase;
+            color: var(--gray-800);
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 3rem;
+            margin-bottom: 2.8rem;
+          }
+          p.contact_info {
+            font-size: 1.8rem;
+            line-height: 3rem;
+            color: var(--gray-700);
+            width: 31.6rem;
+          }
+          .question_support {
+            margin-top: 3.2rem;
+
+            display: flex;
+            gap: 1.6rem;
+            figure {
+              width: 5.4rem;
+              height: 5.4rem;
+              border-radius: 50%;
+              background-color: rgba(224, 246, 242, 0.5);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              img {
+                width: 2.5rem;
+                height: auto;
+              }
+            }
+            div {
+              .question {
+                font-size: 1.4rem;
+                font-weight: 700;
+                line-height: 2.2rem;
+                color: var(--gray-800);
+              }
+              .phone {
+                font-size: 2.4rem;
+                font-weight: 700;
+                line-height: 3.6rem;
+                color: var(--primary-main);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* footer css end */
+
+/* copywright and payment css start */
+
+#copywright_payment {
+  border-top: 0.1rem solid #e4e4e4;
+  margin-bottom: 3.6rem;
+  .copywright_payment_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.6rem auto;
+    .copywright {
+      p {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        color: var(--gray-500);
+      }
+    }
+    .payment {
+      p {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: rgba(1, 152, 233, 0.8);
+        display: flex;
+        align-items: center;
+        img {
+          width: 57.6rem;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+/* copywright and payment css end */
