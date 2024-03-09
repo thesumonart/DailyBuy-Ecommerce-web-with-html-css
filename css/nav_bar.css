@@ -1,0 +1,105 @@
+#nav_bar {
+  padding-top: 3.9rem;
+  padding-bottom: 1.5rem;
+  background-color: #ffffff;
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .search_box {
+      height: 5rem;
+      flex-basis: 77.8rem;
+      border: 1px solid #f1f1f1;
+      background-color: #f6f6f6;
+      display: flex;
+      align-items: center;
+      border-radius: 0.5rem;
+      overflow: hidden;
+
+      input {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        padding: 0 2rem;
+      }
+      .search_icon {
+        background: var(--primary-main);
+        color: var(--primary-light);
+        height: 100%;
+        width: 6.5rem;
+        font-size: 2.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .nav_actions {
+      display: flex;
+      align-items: center;
+      .cart_box {
+        position: relative;
+        color: #ff4646;
+        height: 5rem;
+        width: 5rem;
+        line-height: 5rem;
+        text-align: center;
+        background-color: #fff5f5;
+        border-radius: 50%;
+        span {
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-size: 1rem;
+          font-weight: 600;
+          height: 2rem;
+          width: 2rem;
+          border: 0.25rem solid #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          color: #fff;
+          background-color: #ff4646;
+        }
+        .cart_icon {
+          font-size: 2rem;
+        }
+      }
+      .line_bar {
+        margin: 0 2.4rem;
+        background-color: #cccccc;
+        height: 1.8rem;
+        width: 0.1rem;
+      }
+      .user {
+        a {
+          display: flex;
+          text-decoration: none;
+          align-items: center;
+          gap: 0.8rem;
+          .user_icon {
+            font-size: 2.4rem;
+            color: #4d4d4d;
+            background-color: #f8f8f8;
+            height: 5rem;
+            width: 5rem;
+            line-height: 5rem;
+            text-align: center;
+            border-radius: 50%;
+          }
+          div {
+            font-size: 1.2rem;
+            .greeting {
+              color: rgba(61, 61, 63, 0.78);
+            }
+            .user_name {
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
