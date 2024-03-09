@@ -1037,3 +1037,63 @@ html {
 }
 
 /* copywright and payment css end */
+
+/* floating cart and go-to-top css start */
+.cart {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  .floating_cart_box {
+    position: relative;
+    color: #ff4646;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    background-color: #fff5f5;
+    border-radius: 50%;
+    span {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 1rem;
+      font-weight: 600;
+      height: 2rem;
+      width: 2rem;
+      border: 0.25rem solid #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: #fff;
+      background-color: #ff4646;
+    }
+    .floating_cart {
+      font-size: 2rem;
+    }
+  }
+}
+
+.top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  .go_top_box {
+    text-decoration: none;
+    bottom: 1rem;
+    left: 1rem;
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--primary-main);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    .go_top {
+      font-size: 2rem;
+    }
+  }
+}
+/* floating cart and go-to-top css end */
