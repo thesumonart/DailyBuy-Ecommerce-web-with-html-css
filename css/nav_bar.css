@@ -2,6 +2,8 @@
   padding-top: 3.9rem;
   padding-bottom: 1.5rem;
   background-color: #ffffff;
+  border-bottom: 0.1rem solid rgba(228, 228, 228, 0.5);
+
   .nav {
     display: flex;
     justify-content: space-between;
@@ -92,10 +94,11 @@
           div {
             font-size: 1.2rem;
             .greeting {
-              color: rgba(61, 61, 63, 0.78);
+              color: var(--gray-500);
             }
             .user_name {
               font-weight: 500;
+              color: var(--gray-800);
             }
           }
         }

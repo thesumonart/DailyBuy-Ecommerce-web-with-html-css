@@ -1,0 +1,191 @@
+#navigation {
+  .container {
+    .navigation_wrapper {
+      padding: 0.4rem 0;
+      display: flex;
+      align-items: center;
+      .category_btn {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: var(--primary-main);
+        border-radius: 0.5rem;
+        padding: 1.4rem 2.75rem;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        gap: 0.6rem;
+        line-height: 2.4rem;
+        h3 {
+          margin-left: 0.8rem;
+        }
+      }
+      .navigation_list {
+        display: flex;
+        margin-left: 11rem;
+        list-style: none;
+        gap: 7.7rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 2.4rem;
+        color: var(--gray-800);
+      }
+    }
+  }
+}
+
+#product_filter {
+  margin-top: 4.8rem;
+  .container {
+    display: flex;
+    .filter_wrapper {
+      padding: 0 2.6rem;
+      width: 30.3rem;
+      .filter_heading {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 3rem;
+        margin-bottom: 1.6rem;
+        color: var(--gray-800);
+      }
+      .category_filter {
+        .category_name {
+          p {
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            padding: 1.2rem 0;
+            color: #555555;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 0.1rem solid var(--gray-200);
+            cursor: pointer;
+            .down_arrow {
+              color: var(--gray-500);
+              transition: all 0.3s linear;
+            }
+          }
+          #fruits_vegetables:checked ~ .category_item,
+          #fruits_vegetables1:checked ~ .category_item {
+            visibility: visible;
+            opacity: 1;
+            height: auto;
+          }
+          #fruits_vegetables:checked ~ label p,
+          #fruits_vegetables1:checked ~ label p {
+            color: var(--primary-main);
+            .down_arrow {
+              color: var(--primary-main);
+              rotate: 180deg;
+            }
+          }
+          .category_item {
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s linear;
+            height: 0rem;
+            li {
+              cursor: pointer;
+              display: flex;
+              align-items: center;
+              font-size: 1.4rem;
+              line-height: 2.2rem;
+              gap: 1rem;
+              padding: 1.2rem 0;
+              color: var(--gray-800);
+              border-bottom: 0.1rem solid var(--gray-200);
+              label {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+      .price_filter {
+        margin-bottom: 3.2rem;
+        .filter_heading {
+          font-size: 2rem;
+          font-weight: 500;
+          line-height: 3rem;
+          margin-bottom: 1.6rem;
+          color: var(--gray-800);
+        }
+
+        #price_range {
+          margin-bottom: 1.2rem;
+          width: 100%;
+          appearance: none;
+          height: 0.4rem;
+          border-radius: 0.4rem;
+          background-color: rgba(0, 168, 132, 0.32);
+          &::-webkit-slider-thumb {
+            appearance: none;
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            background-color: var(--primary-main);
+          }
+        }
+        .price_reset {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .price {
+            display: inline-block;
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+            color: #555555;
+
+            span {
+              font-size: 1.4rem;
+              font-weight: 500;
+              line-height: 2.2rem;
+              color: var(--gray-900);
+              margin-left: 1.2rem;
+            }
+          }
+          #reset_btn {
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 2.2rem;
+            color: var(--info-main);
+            border: none;
+            outline: none;
+            background: transparent;
+            cursor: pointer;
+          }
+        }
+      }
+      .rating_filter {
+        .filter_heading {
+        }
+        .ratings {
+          li {
+            margin-bottom: 0.9rem;
+            list-style: none;
+            input {
+              margin-right: 1.7rem;
+            }
+          }
+          .star_icon {
+            font-size: 2rem;
+            color: #919eab;
+            padding: 0.2rem;
+          }
+          label {
+            .star_icon_golden {
+              color: var(--warning-main) !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .all_products {
+    .header {
+    }
+  }
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/nav_bar.css" />
+    <link rel="stylesheet" href="../css/product.css" />
+    <title>All Products-DailyBuy Ecommerce store</title>
+  </head>
+  <body>
+    <!-- navBar start -->
+    <header id="nav_bar">
+      <div class="container">
+        <nav class="nav">
+          <figure class="nav_logo">
+            <a href="/">
+              <img src="../assets/images/logo.png" alt="DailyBuy" />
+            </a>
+          </figure>
+          <div class="search_box">
+            <input type="text" placeholder="I'm looking for..." />
+            <i class="fa-sharp fa-solid fa-magnifying-glass search_icon"></i>
+          </div>
+          <div class="nav_actions">
+            <div class="cart_box">
+              <i class="fa-regular fa-bag-shopping cart_icon"></i>
+              <span>2</span>
+            </div>
+            <div class="line_bar"></div>
+            <div class="user">
+              <a href="#">
+                <i class="fa-light fa-user user_icon"></i>
+                <div>
+                  <p class="greeting">Hello</p>
+                  <p class="user_name">Sign in</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- navBar end -->
+
+    <!-- navigation bar start -->
+    <section id="navigation">
+      <div class="container">
+        <div class="navigation_wrapper">
+          <div class="category_btn">
+            <i class="fa-regular fa-bars sidebar_icon"></i>
+            <h3>categories</h3>
+            <i class="fa-regular fa-chevron-down"></i>
+          </div>
+          <ul class="navigation_list">
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About Us</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="product_filter">
+      <div class="container">
+        <div class="filter_wrapper">
+          <h4 class="filter_heading">Product category</h4>
+          <div class="category_filter">
+            <div class="category_name">
+              <input type="checkbox" id="fruits_vegetables" hidden />
+              <label for="fruits_vegetables"
+                ><p>
+                  Fruites & Vegetable
+                  <i class="fa-regular fa-chevron-down down_arrow"></i></p
+              ></label>
+              <ul class="category_item">
+                <label for="apples">
+                  <li><input id="apples" type="checkbox" />Apples</li>
+                </label>
+                <label for="berries">
+                  <li><input id="berries" type="checkbox" />Berries</li>
+                </label>
+                <label for="melons">
+                  <li><input id="melons" type="checkbox" />Melons</li>
+                </label>
+                <label for="mango">
+                  <li><input id="mango" type="checkbox" />Mango</li>
+                </label>
+                <label for="plum">
+                  <li><input id="plum" type="checkbox" />Plum</li>
+                </label>
+              </ul>
+            </div>
+            <div class="category_name">
+              <input type="checkbox" id="fruits_vegetables1" hidden />
+              <label for="fruits_vegetables1"
+                ><p>
+                  Fruites & Vegetable
+                  <i class="fa-regular fa-chevron-down down_arrow"></i></p
+              ></label>
+              <ul class="category_item">
+                <label for="apples">
+                  <li><input id="apples" type="checkbox" />Apples</li>
+                </label>
+                <label for="berries">
+                  <li><input id="berries" type="checkbox" />Berries</li>
+                </label>
+                <label for="melons">
+                  <li><input id="melons" type="checkbox" />Melons</li>
+                </label>
+                <label for="mango">
+                  <li><input id="mango" type="checkbox" />Mango</li>
+                </label>
+                <label for="plum">
+                  <li><input id="plum" type="checkbox" />Plum</li>
+                </label>
+              </ul>
+            </div>
+          </div>
+          <div class="price_filter">
+            <h4 class="filter_heading">Filter by price</h4>
+            <input type="range" id="price_range" />
+            <div class="price_reset">
+              <p class="price">Price: <span>$0 - $450</span></p>
+              <input type="reset" id="reset_btn" />
+            </div>
+          </div>
+          <div class="rating_filter">
+            <h4 class="filter_heading">Filter by Rating</h4>
+            <ul class="ratings">
+              <label for="zero_star"
+                ><li>
+                  <input type="checkbox" id="zero_star" /><i
+                    class="fa-sharp fa-solid fa-star star_icon"
+                  ></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i></li
+              ></label>
+              <label for="one_star"
+                ><li>
+                  <input type="checkbox" id="one_star" /><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i></li
+              ></label>
+              <label for="two_star"
+                ><li>
+                  <input type="checkbox" id="two_star" /><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i></li
+              ></label>
+              <label for="three_star"
+                ><li>
+                  <input type="checkbox" id="three_star" /><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i></li
+              ></label>
+              <label for="four_star"
+                ><li>
+                  <input type="checkbox" id="four_star" /><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i class="fa-sharp fa-solid fa-star star_icon"></i></li
+              ></label>
+              <label for="five_star"
+                ><li>
+                  <input type="checkbox" id="five_star" /><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i
+                  ><i
+                    class="fa-sharp fa-solid fa-star star_icon star_icon_golden"
+                  ></i></li
+              ></label>
+            </ul>
+          </div>
+        </div>
+        <div class="all_products">
+          <div class="header"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- navigation bar end -->
+  </body>
+</html>
